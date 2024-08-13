@@ -23,9 +23,15 @@ def get_chatbot_response(user_input):
 st.set_page_config(page_title="Simple ChatBot🤖", layout="centered")
 
 st.markdown("""
-    <h1 style='text-align: center;'>👾 Simple ChatBot 🤖</h1>
-    <h2 style='text-align: center;'>by Kousar Raza 👽</h3>
+    <style>
+        .container { background-color: blue; color: white; padding: 20px; }
+    </style>
+    <div class="container">
+        <h1 style='text-align: center;'>👾 Simple ChatBot 🤖</h1>
+        <h2 style='text-align: center;'>by Kousar Raza 👽</h2>
+    </div>
     """, unsafe_allow_html=True)
+
 
 st.write("Powered by Google Generative AI")
 
