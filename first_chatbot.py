@@ -19,7 +19,7 @@ def get_chatbot_response(user_input):
     response = model.generate_content(user_input)
     return response.text
 
-# Streamlit interface
+# Streamlit interfacepi
 st.set_page_config(page_title="Simple ChatBot🤖", layout="centered")
 
 st.markdown("""
