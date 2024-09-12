@@ -1,5 +1,5 @@
 # Simple ChatBot 🤖
-
+ 
 This project is a simple chatbot powered by Google Generative AI, built using Streamlit. The chatbot is designed to generate responses based on user input using the `gemini-1.5-flash` model from Google's Generative AI API.
 
 ## Features
